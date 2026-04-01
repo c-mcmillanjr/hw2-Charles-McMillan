@@ -16,3 +16,13 @@ This repository contains my first homework assignment for the MBA AI for Busines
 | `b2af640` | Add final version content and reflection note |
 | `e48db67` | Add introduction content and prompt reflection note to assistant_draft |
 | `6de710e` | Add README, assistant_draft, and final_version files |
+
+## Repository File Tree
+
+```
+$ git ls-tree -r --name-only main
+
+README.md
+assistant_draft.md
+final_version.md
+```
