@@ -17,6 +17,10 @@ This repository contains my first homework assignment for the MBA AI for Busines
 | `e48db67` | Add introduction content and prompt reflection note to assistant_draft |
 | `6de710e` | Add README, assistant_draft, and final_version files |
 
+## Reference
+
+https://youtu.be/wbN-U6l5ERE
+
 ## Repository File Tree
 
 ```
