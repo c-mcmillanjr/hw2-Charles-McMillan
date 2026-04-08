@@ -19,7 +19,7 @@ This repository contains my first homework assignment for the MBA AI for Busines
 
 ## Reference
 
-https://youtu.be/wbN-U6l5ERE
+Video: https://youtu.be/wbN-U6l5ERE
 
 ## Repository File Tree
 
