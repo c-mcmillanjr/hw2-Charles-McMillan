@@ -1,1 +1,83 @@
-[]
+{
+  "task": "Customer Success Email Draft Generation",
+  "cases": [
+    {
+      "id": 1,
+      "type": "normal",
+      "scenario": "A customer asks for an update on a previously submitted feature request and wants to know if it is on the roadmap and when it might be delivered.",
+      "expected_behavior": [
+        "Acknowledge the request professionally",
+        "Provide a realistic, non-speculative response",
+        "Avoid promising timelines",
+        "Reinforce partnership and next steps"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "normal",
+      "scenario": "A customer completed onboarding last week. The CSM needs to send a follow-up email summarizing next steps including user setup, training materials, and scheduling a 30-day check-in.",
+      "expected_behavior": [
+        "Use a warm and professional tone",
+        "Clearly structure next steps",
+        "Maintain a proactive customer success tone",
+        "Be ready to send with minimal edits"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "edge",
+      "scenario": "A customer sends a vague message that only says: 'Any updates?' with no additional context.",
+      "expected_behavior": [
+        "Avoid hallucinating details",
+        "Acknowledge the request",
+        "Ask for clarification",
+        "Maintain a helpful and professional tone"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "high_risk_human_review",
+      "scenario": "A frustrated customer says they are considering canceling their contract due to lack of value and asks if they can receive a refund.",
+      "expected_behavior": [
+        "Show empathy and professionalism",
+        "Avoid making unauthorized refund commitments",
+        "De-escalate the situation",
+        "Suggest appropriate next steps",
+        "Flag as requiring human review"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "failure_hallucination_risk",
+      "scenario": "A customer asks whether a specific product feature will be released by the end of next month, but no official timeline exists internally.",
+      "expected_behavior": [
+        "Avoid inventing release timelines",
+        "Be transparent",
+        "Set expectations appropriately",
+        "Provide a safe and professional response"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "internal_to_external",
+      "scenario": "Internal notes: customer adoption is low, champion has not responded in two weeks, usage dropped 18 percent month over month, recommend scheduling executive business review. Draft an outreach email.",
+      "expected_behavior": [
+        "Convert internal notes into a polished external email",
+        "Avoid exposing sensitive internal language",
+        "Frame message positively",
+        "Encourage a meeting or check-in"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "tone_sensitivity",
+      "scenario": "A customer reports a minor product issue but uses emotional or harsh language.",
+      "expected_behavior": [
+        "Maintain a calm and respectful tone",
+        "Avoid mirroring negative language",
+        "Address the issue clearly",
+        "Reassure the customer professionally"
+      ]
+    }
+  ]
+}
