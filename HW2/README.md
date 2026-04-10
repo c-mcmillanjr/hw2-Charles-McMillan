@@ -28,3 +28,6 @@ This task is valuable to automate or partially automate because:
 - **Scalability:** Enables handling higher volumes of customer interactions without sacrificing quality
 - **Risk reduction:** Provides structured drafts that can reduce miscommunication when reviewed before sending
 - **Focus on high-value work:** Allows CSMs to focus more on strategy, relationship building, and complex problem-solving rather than routine writing tasks
+
+## Demo Video
+[Watch the demo](https://youtu.be/LGvYZV1TWV0)
